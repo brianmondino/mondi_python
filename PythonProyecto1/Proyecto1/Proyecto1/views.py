@@ -30,7 +30,7 @@ def calcNac (self, edad):
 def probando_template(request):
 	return render(request,'template1.html', context={})
 
-
+#ca,bio 
 '''def probandoTemplate(self):
 	miHtml = open ('template1.html')
 	plantilla = Template(miHtml.read()) #Se carga en memoria nuestro documento, template1
